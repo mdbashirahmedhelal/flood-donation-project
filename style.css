@@ -169,6 +169,7 @@ body p {
 
 .food {
     width: 30%;
+    min-height: 300px;
     background-color: #FFC4DD;
     padding: 2em 1em;
     border-radius: 4px;
@@ -176,6 +177,7 @@ body p {
 
 .shelter {
     width: 30%;
+    min-height: 300px;
     background-color: #E4AEC5;
     padding: 2em 1em;
     border-radius: 4px;
@@ -183,6 +185,7 @@ body p {
 
 .education {
     width: 30%;
+    min-height: 300px;
     background-color: #82A284;
     padding: 2em 1em;
     border-radius: 4px;
@@ -244,6 +247,10 @@ body p {
     padding-bottom: 5em;
 }
 
+.mission-join-option span:hover {
+    text-decoration: underline;
+}
+
 .circle {
     background-color: #fff;
     width: 250px;
@@ -278,7 +285,6 @@ body p {
 .newsletter-content p {
     color: #707070;
     margin-top: 1em;
-
 }
 
 .newsletter-form {
@@ -308,6 +314,7 @@ body p {
     border-bottom-right-radius: 4px;
     color: #fff;
     font-size: .8em;
+    cursor: pointer;
 }
 
 /* sixth Section - Newsletter End */
