@@ -14,6 +14,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 1.5;
+    overflow-x: hidden;
 }
 
 body h1 h2 h3 {
@@ -143,3 +144,85 @@ body p {
 }
 
 /* Second Section - Donate Amount End */
+
+/* Thired Section - Donate Plan Start */
+.donate-sector {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2%;
+    text-align: left;
+    margin-bottom: 120px;
+
+}
+
+.donate-sector img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1em;
+}
+
+.donate-sector h3 {
+    margin-bottom: 1em;
+}
+
+.food {
+    width: 30%;
+    background-color: #FFC4DD;
+    padding: 2em 1em;
+    border-radius: 4px;
+}
+
+.shelter {
+    width: 30%;
+    background-color: #E4AEC5;
+    padding: 2em 1em;
+    border-radius: 4px;
+}
+
+.education {
+    width: 30%;
+    background-color: #82A284;
+    padding: 2em 1em;
+    border-radius: 4px;
+}
+
+/* Thired Section - Donate Plan End */
+
+/* Fourth Section - Featured Article Start */
+.blog {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2%;
+    text-align: left;
+    margin-bottom: 120px;
+}
+
+.blog-content {
+    width: 45%;
+    padding-right: 4em;
+}
+
+.blog-content h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.blog-content p {
+    margin-bottom: 45px;
+}
+
+.blog-photo {
+    width: 47%;
+}
+
+.blog-photo img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+/* Fourth Section - Featured Article End */
