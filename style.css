@@ -226,3 +226,108 @@ body p {
 }
 
 /* Fourth Section - Featured Article End */
+
+/* Fifth Section - Join Our Mission Start */
+.mission {
+    width: 100%;
+    background-color: #FF5959;
+}
+
+.misson-title h2 {
+    color: #fff;
+    font-size: 2em;
+    padding-top: 3em;
+    padding-bottom: 1.5em;
+}
+
+.mission-join-option {
+    padding-bottom: 5em;
+}
+
+.circle {
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: #FF5959;
+    font-weight: bold;
+    margin-right: 2em;
+}
+
+/* Fifth Section - Join Our Mission End */
+
+/* sixth Section - Newsletter Start */
+.newsletter {
+    width: 100%;
+    padding: 4em;
+}
+
+.newsletter-content {
+    margin-bottom: 3em;
+}
+
+.newsletter-content h2 {
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.newsletter-content p {
+    color: #707070;
+    margin-top: 1em;
+
+}
+
+.newsletter-form {
+    background-color: #FFF4D6;
+    width: 100%;
+    padding: 4em;
+}
+
+#put-email {
+    background-color: #dadada;
+    width: 300px;
+    height: 50px;
+    margin-right: -10px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-left: 1em;
+    font-size: .8em;
+}
+
+#subscribe {
+    background-color: #FF5959;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #fff;
+    font-size: .8em;
+}
+
+/* sixth Section - Newsletter End */
+
+/* seventh Section - Footer Start */
+
+footer {
+    width: 100%;
+    background-color: #0c180d;
+    padding: 3em;
+}
+
+#footer h3 {
+    color: #FF5959;
+    margin-bottom: .5em;
+}
+
+#footer p {
+    color: #fff;
+    font-size: .75em;
+}
+
+/* seventh Section - Footer End */
